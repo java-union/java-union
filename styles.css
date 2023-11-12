@@ -1,0 +1,39 @@
+.header {
+  padding: 10px;
+  position: static;
+  background: #ff6600;
+  color: white;
+  width:98.7%;
+  /* font-size: 30px; */
+}
+
+#topim{
+  position: absolute;
+  top: 30;
+  left: 30;
+}
+
+#m{
+	color:white;
+	font-family:Helvetica;
+}
+	
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 70%;
+}
+
+.Sleft {
+  width: 65%;
+}
+
+.Sright {
+  width: 35%;
+}

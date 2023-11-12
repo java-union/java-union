@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+	<link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <title>Java Union - LOGIN</title>
+    <link rel='stylesheet' href='styles.css'>
+  </head>
+  <body style="background-color:#3399ff">
+	<div style="color:white;text-align:center;">
+		<h1 style="font-size:40px">Java Union</h1>
+		<h2 style="font-size:30px">Login</h2>
+		<img src="assets/logo.png" width="300"></img>
+	</div>
+	
+	<div style="text-align:center;">
+		<br>
+		<p>Username: <input id="text_a" type="text" style="font-family:Times;"/><br><br></p>
+		<P>Password: <input id="text_b" type="password" style="font-family:Times;"/></p>
+		<p id="answer">  </p>
+		<button onclick="myFunction()" style="font-family:Times;">Login</button>
+		<p id="answer"></p>
+		<script>
+		function myFunction()
+		{
+		var a=document.getElementById("text_a").value;
+		var b=document.getElementById("text_b").value;
+
+		if (a=="Admin" && b=="jDK46"){
+			document.getElementById("answer").innerHTML="Successful Login.";
+			window.location.replace("login.html");
+		}
+		else if (a=="Kaveman" && b=="jDK46"){
+			document.getElementById("answer").innerHTML="Successful Login.";
+			window.location.replace("login.html");
+		}
+		else
+		  {
+			document.getElementById("answer").innerHTML="Incorrect Login. Please try again.";
+		  }
+		  
+		}
+		</script>
+	</div>
+	
+	
+    <script src='scripts.js'></script>
+  </body>
+</html>

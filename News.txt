@@ -1,0 +1,5 @@
+NOV-11-23  Site v1.1 complete
+	   - added GIFs, member list
+           - added favicon
+NOV-11-23  Site v1 complete
+NOV-11-23  Updates and News will go here!
