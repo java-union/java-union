@@ -17,9 +17,9 @@
 		<br>
 		<p>Username: <input id="text_a" type="text" style="font-family:Times;"/><br><br></p>
 		<P>Password: <input id="text_b" type="password" style="font-family:Times;"/></p>
-		<p id="answer">  </p>
 		<button onclick="myFunction()" style="font-family:Times;">Login</button>
-		<p id="answer"></p>
+		<p id="answer"> </p>
+		<p id="answer-l2"> </p>
 		<script>
 		function myFunction()
 		{
@@ -42,9 +42,26 @@
 			document.getElementById("answer").innerHTML="Successful Login.";
 			window.location.replace("login.html");
 		}
+		else if (a=="cici" && b=="12345"){
+			document.getElementById("answer").innerHTML="Successful Login.";
+			window.location.replace("login.html");
+		}
+		else if (a=="zimo" && b=="12345"){
+			document.getElementById("answer").innerHTML="Successful Login.";
+			window.location.replace("login.html");
+		}
+		else if (a=="imnotwill" && b=="12345"){
+			document.getElementById("answer").innerHTML="Successful Login.";
+			window.location.replace("login.html");
+		}
+		else if (a=="AC37" && b=="12345"){
+			document.getElementById("answer").innerHTML="Successful Login.";
+			window.location.replace("login.html");
+		}
 		else
 		  {
 			document.getElementById("answer").innerHTML="Incorrect Login. Please try again.";
+			document.getElementById("answer-l2").innerHTML="NOTE: Both username and password are case sensitive.";
 		  }
 		  
 		}
