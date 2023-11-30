@@ -18,6 +18,17 @@
 		<p>Username: <input id="text_a" type="text" style="font-family:Times;"/><br><br></p>
 		<P>Password: <input id="text_b" type="password" style="font-family:Times;"/></p>
 		<button onclick="myFunction()" style="font-family:Times;">Login</button>
+		<div style="color:white;text-align:center;">
+		<br>
+			<button onclick="guestLogin()" style="font-family:Times;">Guest Login</button>
+		</div>
+	
+		<script>
+			function guestLogin(){
+				window.location.replace("guest.html");
+			}
+		</script>
+		
 		<p id="answer"> </p>
 		<p id="answer-l2"> </p>
 		<script>
@@ -67,7 +78,6 @@
 		}
 		</script>
 	</div>
-	
 	
     <script src='scripts.js'></script>
   </body>
