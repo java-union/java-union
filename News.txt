@@ -1,3 +1,5 @@
+NOV-29-23  Looking to join the Java Union? Sign up today to receive a membership card!
+NOV-29-23  Guest login added
 NOV-27-23  New members added
 NOV-11-23  Site now live at https://java-union.github.io/java-union/
 NOV-11-23  Site v1.1 complete
